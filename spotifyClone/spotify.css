@@ -1,0 +1,211 @@
+*{
+    padding:0;
+    margin:0;
+
+    color:white;
+    font-family:'Times New Roman';
+    font-weight: 500%;
+    background-color: rgba(5, 4, 4, 0.408) ;
+    
+   
+}
+.nav{
+    background-color: black;
+    height: 55px;
+    font-size:26px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    color:orange;
+
+
+}
+
+
+.container{
+    background-color: black;
+
+    height: 570px;
+    
+    
+    
+
+    width: 80%;
+    margin: 23px auto;
+    background-image: url("images/girbg.jpg");
+    background-size: cover;
+    
+}
+li{
+    list-style-type:none;
+}
+
+.logo{
+    background-image: url("images/spotify.png");
+    background-size: cover;
+    height: 49px;
+    width:129px;
+    margin-left: 20px;
+}
+.search{
+    background-image: url("");
+}
+
+#foot{
+    height: 70px;
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+    
+button{
+    height:25px;
+    width:50px;
+    color: black;
+    margin-top:7px;
+    background-color: white;
+
+
+}
+
+#f1{
+    display: flex;
+    
+    
+}
+
+}
+#myprogressbar{
+    width:80vw;
+    text-align: center;
+    cursor: pointer;
+    background-color:blue;
+}
+   
+
+
+
+.imo{
+height: 31px;
+position: fixed;
+margin-left: 0;
+border-radius: 5px;
+
+
+}
+
+.songitem{
+    display:flex;
+    background-color:white;
+
+
+    justify-content: space-around;
+    width: 450px;
+    height: 30px;
+    background-size: 30px;
+    margin-left: 18px;  
+    border-radius: 10px;
+    border: 2px solid orange;
+    margin-top: 9px;
+
+}
+.songlist{
+    margin-top: 40px;
+    width:400px;
+    margin-left: 20px;
+}
+
+.border:hover{
+    border-bottom : 2.3px solid rgb(3, 223, 3);
+    color: orange;
+
+}
+.border{
+    height:40px;
+   
+    
+    
+}
+
+span{
+    background-color: white;
+    color:black;
+}
+
+i{
+    margin-left:10px;
+    size:100px;
+}
+
+.about{
+    margin-right: 30px;
+}
+
+.songname{
+    width: 200px;
+}
+
+.songInfo{
+
+    position: absolute;
+    left:10vw;
+    margin-top: 20px;
+    
+
+
+
+
+}
+
+.gif{
+    margin-top: 5px;
+}
+
+.songInfo span{
+    background-color: black;
+    color:gold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    
+    
+    
+}
+/* 
+.songInfo img{
+    background-image: url("playing.gif");
+}
+
+ */
+
+ #next:active{
+    color: #0075FF;
+
+ }
+
+ 
+ #previous:active{
+    color: #0075FF;
+
+ }
+
+
+ #masterplay:active{
+
+    color: #22FF86;
+
+ }
+
+
+ 
+
+
+
+
