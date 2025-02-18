@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+.canvas{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+
+#grey{
+
+    background-color: grey;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+#yellow{
+    background-color: yellow;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+#white{
+    background-color:white;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+#blue{
+    background-color:blue;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+
+#pink{
+    background-color:pink;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+
+#orange{
+    background-color:orange;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
+
+#red{
+    background-color:red;
+    height:100px;
+    width:100px;
+  
+    border:6px solid black;
+}
