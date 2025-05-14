@@ -1,0 +1,73 @@
+
+.container{
+    margin-top: 2%;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px ;
+}
+.canvas
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 150px;
+    height: 200px;
+    border:5px solid black;
+    border-radius: 5px;
+    
+}
+
+
+#grey{
+    background-color: #adb5bd;
+}
+
+
+#pink{
+    background-color: #ff87ab;
+}
+
+#red{
+    background-color: #dc2f02;
+}
+
+#black{
+    background-color:#212529;
+}
+
+
+#green{
+    background-color: #2d6a4f;
+}
+
+#white{
+    background-color:white;
+}
+
+#brown{
+    background-color: #9c6644;
+}
+
+
+#yellow{
+    background-color: #ffc500;
+}
+
+
+
+#vilot{
+    background-color: #5c0099;
+}
+
+#navy-blue{
+    background-color: #003566;
+}
+
+
+
