@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="display">
+            <h2 id="display-output">The Password will display here...</h2>
+
+        </div>
+
+        <br>
+
+    <div class="container">
+
+        <div class="checkbox-container">
+
+        <label for="number">
+
+            <input type="checkbox" name="number" id="number">Numbers
+
+        </label>
+
+        <label for="special-character">
+            <input type="checkbox" name="special-character" id="symbol-check">Special_character
+
+        </label>
+
+        </div>
+
+        <br>
+
+        <div class="range-container">
+
+        <input type="range" min="8" max="128" value="12" id="length">
+        <label for="length"><br>Length <span id="length-value">12</span></label>
+
+        </div>
+
+        <br>
+
+        <button id="generate-password">generate password</button>
+    
+    </div>
+
+
+    </main>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #2a5977;
+}
+
+body{
+
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 0 10px solid black;
+    
+    border-radius: 7px;
+
+    
+}
+
+h2{
+    text-align: center;
+}
+
+
+.container{
+    height: 22vh;
+    margin: auto;
+    background-color: #023047;
+    max-width: 650px;
+
+    min-width: 600px;
+
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius:  8px;
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+
+
+.checkbox-container {
+    text-align: center;
+    
+}
+.checkbox-container label{
+    font-size: 20px;
+    color: white;
+
+    
+}
+
+.checkbox-container input[type='checkbox']{
+    accent-color: rgb(25, 123, 153) ;
+}
+
+
+
+
+
+
+.range-container #length{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+
+
+.range-container #length[type='range']{
+    accent-color:  rgb(25, 123, 153);
+}
+
+.range-container label{
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+
+#generate-password {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    border: 3px solid black;
+    
+
+}
+
+
