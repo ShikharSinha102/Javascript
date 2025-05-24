@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+body{
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color : white;
+       
+}
+
+.container{
+    margin: auto;   
+    width: 86%;
+    text-align: center;
+}
+
+.todo-div{
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.span-todo{
+    display: inline-block;
+    height : 25px;
+    width : 550px;
+    max-width: 100%;
+    border: 2px solid orange !important;
+    padding-top: 2px;
+    padding-left: 5px;
+    border-radius: 7px;
+
+    
+}
+
+#todo-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgba(0, 0, 0, 0.537);
+    outline: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    caret-color: white;
+    color: orange;
+    
+}
+
+
+
+#add-todo-btn {
+    width: 100px;
+    height: 50px;
+    background-color:orange;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#add-todo-btn:hover{
+    background-color: rgb(255, 171, 15);
+}
+#add-todo-btn:active{
+    background-color:red;
+    color:white;
+
+}
+
+#todo-item-div{
+    margin-top: 10px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#todo-item:last-child {
+    border-bottom: none;
+}
+
+#todo-item{
+    display: inline-block;
+    width: 425px;
+    border:2px solid black;
+    height: 25px;
+    vertical-align: middle;
+    
+    padding : 4px 10px;
+}
+
+
+.edit-btn{
+    height:28px;
+}
+
+.edit-btn:hover{
+    background-color: hsla(0, 0%, 100%, 0.897);
+}
+
+#edit-mode {
+color: red;
+
+}
+
+.edit-input{
+    height: 25px;
+    background-color: black;
+    border: 2px solid #00ffc4;
+    outline: none;
+    border-radius: 7px;
+    color:white;
+
+    display: none;
+
+
+}
+
+
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.delete-btn:hover{
+    background-color: rgb(238, 26, 26);
+}
+
+.save-btn{
+
+    height: 28px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    outline: none;
+
+}
+.save-btn:hover{
+    background-color:rgb(21, 165, 21) ;
+}
+.save-btn:active{
+    background-color: red;
+    color: white;
+}
+
+.resize-width{
+    width: 425px;
+    max-width: 100%;
+}
+
+.hide{
+    display: inline-block;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Todo App</h1>
+        <input type="text" id="todo-input" placeholder="Enter todo item">
+        <button id="add-todo-btn">Add Todo</button>
+        <ul id="todo-list"></ul>
+
+
+    </div>
+
+  <script src="scirpt.js"></script>  
+</body>
+</html>
